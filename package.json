@@ -1,0 +1,16 @@
+{
+  "name": "colab-manager",
+  "version": "0.1.0",
+  "description": "Administrador asistido de tareas de Google Colab desde Termux (sin dependencias externas)",
+  "bin": { "colabctl": "colabctl.js" },
+  "main": "jobs/manager.js",
+  "license": "MIT",
+  "private": true,
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "example": "node scripts/make-example-notebook.js",
+    "zip": "bash scripts/build-zip.sh"
+  },
+  "dependencies": {}
+}

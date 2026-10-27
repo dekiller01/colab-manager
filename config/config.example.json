@@ -1,0 +1,30 @@
+{
+  "schema": 1,
+  "provider": "manual",
+  "channel": {
+    "type": "none",
+    "_ejemplos": "Cambie type por: folder | rclone | github. Ver README. NO escriba tokens aquí."
+  },
+  "colab": {
+    "storageMode": "drive",
+    "driveFolder": "ColabManager"
+  },
+  "limits": {
+    "maxRetries": 3,
+    "maxConcurrent": 1,
+    "startTimeoutMin": 30,
+    "staleMin": 15,
+    "staleFactor": 5,
+    "maxSilenceMin": 120,
+    "concurrentGuardSec": 90,
+    "maxConfigBytes": 65536,
+    "maxScriptBytes": 204800,
+    "apiRatePerMin": 60
+  },
+  "dekiller": {
+    "enabled": false,
+    "tokenEnv": "COLABCTL_API_TOKEN",
+    "host": "127.0.0.1",
+    "port": 8787
+  }
+}

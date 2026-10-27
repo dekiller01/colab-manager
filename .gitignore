@@ -1,0 +1,32 @@
+# Datos de ejecución (por defecto viven en ~/.colab-manager, fuera del repo)
+data/
+.colab-manager/
+config.json
+jobs/*.json
+jobs/*.jsonl
+*.corrupt-*
+*.tmp
+*.bak
+
+# Secretos: NUNCA al repositorio
+.env
+.env.*
+*.pem
+*.key
+token*
+*token*.txt
+credentials*.json
+client_secret*.json
+rclone.conf
+cookies*
+
+# Node / sistema
+node_modules/
+npm-debug.log*
+.DS_Store
+
+# Artefactos
+*.zip
+*.tar.gz
+backups/
+trash/
